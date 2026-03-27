@@ -31,5 +31,13 @@ kubectl apply -f rc.yaml
 ~~~
 ## Check rc
 ~~~sh
-kubectl get rc
+kubectl get rc -n test
+~~~
+## check pods namespace
+~~~sh
+kubectl get pods -n test
+~~~
+## delete rc
+~~~sh
+kubectl delete pod test -rc
 ~~~
