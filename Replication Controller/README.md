@@ -25,3 +25,11 @@ spec:
         ports:
         - containerPort: 80
 ~~~
+## Apply rc yaml file
+~~~sh
+kubectl apply -f rc.yaml
+~~~
+## Check rc
+~~~sh
+kubectl get rc
+~~~
