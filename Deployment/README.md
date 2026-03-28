@@ -31,3 +31,51 @@ spec:
         ports:
         - containerPort: 80
 ```
+### Check Pod
+```sh
+kubectl get pods
+```
+
+### Apply 
+```sh
+kubectl apply -f deployment.yaml 
+```
+### Check pods
+```sh
+kubectl get pods
+```
+### Check Deployment
+```sh
+kubectl get deployment
+```
+### Expose Deployment
+```sh
+kubectl expose deployment/my-app --type="NodePort" --port 80
+```
+### check svc
+```sh
+kubectl get svc
+```
+### To Watch
+```sh
+kubectl get pods -w  
+```
+### Detailed info - 
+```sh
+kubectl describe deployment my-app
+
+
+----
+```
+### Rollout status -
+```sh
+kubectl rollout status deployment/my-app 
+```
+### Version history -
+```sh
+kubectl rollout history deployment/my-app 
+```
+### Rollback
+```sh
+kubectl rollout undo deployment/my-app 
+```
