@@ -63,10 +63,8 @@ kubectl get pods -w
 ### Detailed info - 
 ```sh
 kubectl describe deployment my-app
-
-
-----
 ```
+---
 ### Rollout status -
 ```sh
 kubectl rollout status deployment/my-app 
