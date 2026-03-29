@@ -18,3 +18,8 @@
  - **Stable Network Identity** → Each pod has a fixed DNS name
 
 ---
+## Use Cases
+ - Databases (MySQL, MongoDB)
+ - Distributed systems (Kafka, Zookeeper)
+ - Applications requiring persistent data
+---
