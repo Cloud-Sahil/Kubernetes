@@ -15,3 +15,5 @@
 **6. Stateful Set  -- Use in database**
     
 **7. Configmap And Secrets** 
+
+**8. Persistent Volume(PV) And Persistent Volume Claim(PVC)**
