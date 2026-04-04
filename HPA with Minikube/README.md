@@ -137,6 +137,8 @@ while true; do wget -q -O- http://hpa-service; done
 - take an ssh on another terminal to check the cluster pods and hpa 
 ```bash
 kubectl get hpa -w
+```
+```bash
 kubectl get pods
 ```
 ---
