@@ -83,14 +83,14 @@ A Pod is the smallest deployable unit in Kubernetes.
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-pod
+  name: my-pod
   labels:
-      app: nginx
+    app: my-app
 spec:
   containers:
     - name: nginx
-      image: nginx
-      ports: 
+      image: nginx:latest
+      ports:
         - containerPort: 80
 ```
 **Explanation**:
