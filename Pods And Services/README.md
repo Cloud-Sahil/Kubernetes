@@ -62,14 +62,14 @@ YAML (YAML Ain't Markup Language) is a human-readable data serialization format 
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-pod
+  name: my-pod
   labels:
-      app: nginx
+    app: my-app
 spec:
   containers:
     - name: nginx
-      image: nginx
-      ports: 
+      image: nginx:latest
+      ports:
         - containerPort: 80
 ```
 
