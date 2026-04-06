@@ -91,7 +91,7 @@ Worker nodes run the application containers.
 ## Kubernetes Architecture
 
 | Control Plane (Master Node) | Worker Node |
-|----------------------------|------------|
+|----------------------------|--------------------------|
 | **Manages entire cluster** | **Runs application containers** |
 
 | Component | Role | Component | Role |
