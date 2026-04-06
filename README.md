@@ -90,15 +90,13 @@ Worker nodes run the application containers.
 ---
 ## Kubernetes Architecture
 
-| **Control Plane (Master Node) || Worker Node1** |
-|----------------------------||------------|
-| **Manages entire cluster** || **Runs application containers** |
+| Control Plane (Master Node) | Worker Node |
+|----------------------------|------------|
+| **Manages entire cluster** | **Runs application containers** |
 
-| **Component | Role || Component | Role** |
-|----------|------||----------|------|
-| API Server | Entry point for all cluster communication || Kubelet | Communicates with control plane |
-| Scheduler | Assigns pods to worker nodes || Container Runtime | Runs containers (Docker / containerd) |
-| Controller Manager | Maintains desired cluster state || Kube Proxy | Handles networking and load balancing |
-| etcd | Key-value database storing cluster data || Pods | Smallest deployable unit |
-
----
+| Component | Role | Component | Role |
+|----------|------|----------|------|
+| API Server | Entry point for all cluster communication | Kubelet | Communicates with control plane |
+| Scheduler | Assigns pods to worker nodes | Container Runtime | Runs containers (Docker / containerd) |
+| Controller Manager | Maintains desired cluster state | Kube Proxy | Handles networking and load balancing |
+| etcd | Key-value database storing cluster data | Pods | Smallest deployable unit |
