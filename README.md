@@ -88,7 +88,7 @@ Worker nodes run the application containers.
 | Pods | Smallest deployable unit in Kubernetes |
 
 ---
-## Kubernetes Architecture
+
 
 | Control Plane (Master Node) | Worker Node |
 |----------------------------|--------------------------|
