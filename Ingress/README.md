@@ -17,7 +17,7 @@
 ### Ingress controller
  - Ensure that the traffic requested by the user has requested the desired destination it will route the trafic to desired destination.
 
-**| Feature | Ingress Rule |   Ingress controller |   **                                 
+| Feature | Ingress Rule |   Ingress controller |                                 
 |----------|------|------|                                               
 | Definition | Set of routing rules in YAML |Component that executes those rules|
 | Type | Kubernetes resource (config) |Running application (pod/service)  |                     
