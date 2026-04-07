@@ -3,9 +3,9 @@
 ## Introduction to Ingress
  - **Ingress** is an API object that manages **external access** to services in a Kubernetes cluster.
  - Provides:
- - **HTTP/HTTPS routing**
- - **Path-based routing** (`/app1` → Service1, `/app2` → Service2)
- - **Host-based routing** (`app1.example.com` → Service1, `app2.example.com` → Service2)
+   - **HTTP/HTTPS routing**
+   - **Path-based routing** (`/app1` → Service1, `/app2` → Service2)
+   - **Host-based routing** (`app1.example.com` → Service1, `app2.example.com` → Service2)
  - Ingress requires an **Ingress Controller** (commonly **NGINX Ingress Controller**).
 ---
 ## Notes 
