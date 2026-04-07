@@ -17,4 +17,11 @@
 ### Ingress controller
  - Ensure that the traffic requested by the user has requested the desired destination it will route the trafic to desired destination.
 
+| Feature | Ingress Rule |   Ingress controller |                                    
+|----------|------|------|                                               
+| API Server | Entry point for all cluster communication | op |
+| Scheduler | Assigns pods to worker nodes |kkk  |                     
+| Controller Manager | Maintains desired cluster state | rule |       
+| etcd | Key-value database storing cluster data |    abc |        
+
 ---
