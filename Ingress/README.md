@@ -17,11 +17,12 @@
 ### Ingress controller
  - Ensure that the traffic requested by the user has requested the desired destination it will route the trafic to desired destination.
 
-| Feature | Ingress Rule |   Ingress controller |                                    
+**| Feature | Ingress Rule |   Ingress controller |   **                                 
 |----------|------|------|                                               
-| API Server | Entry point for all cluster communication | op |
-| Scheduler | Assigns pods to worker nodes |kkk  |                     
-| Controller Manager | Maintains desired cluster state | rule |       
-| etcd | Key-value database storing cluster data |    abc |        
+| Definition | Set of routing rules in YAML |Component that executes those rules|
+| Type | Kubernetes resource (config) |Running application (pod/service)  |                     
+|Written in | YAML file | Installed as software (e.g., NGINX, Traefik) |       
+| Responsibility |Path/host-based routing rules |   Load balancing, SSL termination, routing |        
+| Example | `/app1 → app1-service` |NGINX controller routing traffic  | 
 
 ---
