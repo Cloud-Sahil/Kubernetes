@@ -120,6 +120,16 @@ spec:
   - port: 80
     targetPort: 5678
 ```
+```sh
+kubectl apply -f app1-deploy.yaml
+```
+```sh
+kubectl get svc
+```
+```sh
+kubectl get pods -o wide
+```
+
 ### Write `App2.yaml` file (Deployment + Service)
 ```sh
 nano app2-deploy.yaml
@@ -157,6 +167,15 @@ spec:
   ports:
   - port: 80
     targetPort: 5678
+```
+```sh
+kubectl apply -f app2-deploy.yaml
+```
+```sh
+kubectl get svc
+```
+```sh
+kubectl get pods -o wide
 ```
 ### Ingress Examples
 **✅ Path-based Routing**
