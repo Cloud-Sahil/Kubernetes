@@ -12,6 +12,7 @@
 
 ---
 ## Notes 
+---
 ### Ingress rule
  - This object ensures or rather its a rule book which states that which a user what to view a particular microservicce the traffic will diverted to that particular microservice cluster IP service object
 ### Ingress controller
@@ -29,6 +30,7 @@
 
 
 ## Commands
+---
 ### Install kubectl 
 #### Download the latest release with the command
 ```sh
