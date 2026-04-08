@@ -251,6 +251,6 @@ kubectl get ingress
 kubectl get svc
 ```
 ## Load Balancer
-DNS IP Copy (/app1 , /app2)
+`DNS IP Copy (/app1 , /app2)`
 
 ---
