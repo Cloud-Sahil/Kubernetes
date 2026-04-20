@@ -1,4 +1,4 @@
-# Kubernetes Relication Controller
+# Kubernetes Replication Controller
 ---
 ## Old way of managing Pods.
 
